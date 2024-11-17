@@ -27,7 +27,8 @@ img {
   font-weight: bold;
 }
 
-.reset-button {
+.reset-button,
+.play-auto {
   padding: 6px 30px;
   font-size: 15px;
   font-weight: bold;
@@ -37,9 +38,14 @@ img {
 .reset-button:hover {
   background-color: rgb(223, 223, 15);
 }
+.play-auto:hover {
+  background-color: blue;
+  color: white;
+}
 div {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
 .pick {
   width: 100px;
