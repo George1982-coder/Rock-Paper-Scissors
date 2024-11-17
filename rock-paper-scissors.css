@@ -1,5 +1,10 @@
 body {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 img {
   width: 150px;
@@ -19,6 +24,7 @@ img {
 .css-results,
 .css-picks,
 .css-score {
+  margin: 0;
   margin-bottom: 50px;
   color: white;
   text-align: center;
@@ -29,7 +35,7 @@ img {
 
 .reset-button,
 .play-auto {
-  padding: 6px 30px;
+  padding: 15px 30px;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
